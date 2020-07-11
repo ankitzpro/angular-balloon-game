@@ -1,0 +1,20 @@
+
+  <div class="gesture__zone">
+  <h2 class="text-primary">Balloon Pump</h2>
+  <p>{{timer}}</p>
+ <hr>
+   
+ <div *ngIf="composh=='Start'">
+  <start ></start>
+  </div>
+  <div *ngIf="composh=='Game'">
+  <game ></game>
+  </div>
+  <div *ngIf="composh=='Timer'">
+  <timer ></timer>
+   </div> 
+   <div *ngIf="composh=='Finish'">
+    <finish ></finish>
+     </div> 
+       
+</div>

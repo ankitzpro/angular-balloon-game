@@ -1,0 +1,15 @@
+.imageblock {
+    display: inline-block;
+    border-radius: 50%;
+}
+.imgdata{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.imgdata img{
+    text-align: left;
+    position: relative;
+}
